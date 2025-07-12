@@ -44,7 +44,7 @@ Follow the prompts to:
 
 Generated images are saved as PNG files with timestamps in the current directory.
 
-## Usage for Image Generator with Virtual Try-on
+## Usage for Image Generator with Virtual Try-on (Person/Clothing)
 
 Copy files to this folder:
 - Image of Person
@@ -69,3 +69,22 @@ Follow the prompts to:
 - Full Body
 
 Generated images are saved as PNG files with timestamps in the current directory.
+
+## Usage for Image Generator with Virtual Try-on (Room/Furniture)
+
+Copy files to this folder:
+- Image of room with furniture to replace
+- Image of new furniture to use
+
+Run the script:
+```bash
+python image_generator_virtual_tryon_room.py
+```
+
+Follow the prompts to:
+1. Enter the name of image file - room 
+2. Enter the name of image file - furniture 
+3. Enter instruction prompt - e.g. replace sofa
+4. Wait for generation and automatic image opening
+
+Generated images are saved as PNG files with timestamps in the current directory. The script currently generates three images to give a few output variants.
