@@ -44,7 +44,7 @@ Follow the prompts to:
 
 Generated images are saved as PNG files with timestamps in the current directory.
 
-## Usage for Image Generator with Virtual Try-on (Person/Clothing)
+## Usage for Image Generator with Virtual Try-on (Person/Clothing) and Image-to-Video Generation
 
 Copy files to this folder:
 - Image of Person
@@ -56,10 +56,13 @@ python image_generator_virtual_tryon.py
 ```
 
 Follow the prompts to:
-1. Enter the name of image file - person 
+1. Enter the name of image file - person (For the video generation function - image needs to be in 1280X720 format)
 2. Enter the name of image file - clothing 
 3. Select a garment type from the menu
 4. Wait for generation and automatic image opening
+5. Specify if you wish to generate a video from the generated image
+6. Enter instruction prompt for the video
+7. When the video generation job completes, file will be downloaded and opened.
 
 ## Garment Type Available
 
@@ -68,7 +71,7 @@ Follow the prompts to:
 - Footwear
 - Full Body
 
-Generated images are saved as PNG files with timestamps in the current directory.
+Generated images are saved as PNG files with timestamps in the current directory Generated videos are saved as MP4 files with timestamps in the current directory. 
 
 ## Usage for Image Generator with Virtual Try-on (Room/Furniture)
 
